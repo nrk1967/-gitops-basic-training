@@ -9,9 +9,9 @@ spec:
       app: myapp
   template:
     metadata:
-       labels:
-         app: myapp
-         training: gitops-basic
+      labels:
+        app: myapp
+        training: gitops-basic
     spec:
       containers:
       - name: nginx
